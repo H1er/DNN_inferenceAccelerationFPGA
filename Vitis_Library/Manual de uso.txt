@@ -1,0 +1,15 @@
+
+1- copiar el modelo en la carpeta models de la librería
+
+2- compilar el model importer (con g++!) con el nombre del nuevo modelo y ejecutarlo para generar su model_data (todo esto desde fuera de vitis)
+
+3- modificar el indice de la capa de salida y el nombre del modelo en el inference_test
+
+4- una vez modificado, ejecutar el inference_test para generar los resultados del modelo en tensorflow
+
+5- modificar el nombre del modelo en el test.cpp y ejecutar
+
+
+
+
+
